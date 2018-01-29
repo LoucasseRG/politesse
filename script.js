@@ -13,7 +13,7 @@ $(document).ready(function(){
 	var d = new Date();
 	var heure = d.getHours();
 
-	$('#QuickReply').find('.submitUnit').children('input').eq(1).after('<input class="button primary" id="cdtjs" value="Cordialement" accesskey="c" type="button">');
+	$('#QuickReply').find('.formButtonGroup-extra').children('input').eq(1).after('<input class="button primary" id="cdtjs" value="Cordialement" accesskey="c" type="button">');
 	var rl = '<br/>\n';
 
 	// heure by JB ou Fabien :^)
